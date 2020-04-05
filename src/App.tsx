@@ -1,22 +1,18 @@
-import React from 'react';
+import React, { useState, Fragment } from "react";
+import { Form, FormState } from "./components/Form/Form";
+import { Chart } from "./components/Chart/Chart";
 
 function App() {
+  const [formState, handleChange] = useState<FormState>({
+    date: "",
+    salary: "",
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Form formState={formState} onChange={handleChange} />
+      <Chart formState={formState} />
+    </Fragment>
   );
 }
 
