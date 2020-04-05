@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/fair-salary-web/static/js/main.f75f25b7.chunk.js",
+    "main.js.map": "/fair-salary-web/static/js/main.f75f25b7.chunk.js.map",
+    "runtime-main.js": "/fair-salary-web/static/js/runtime-main.ad0f7559.js",
+    "runtime-main.js.map": "/fair-salary-web/static/js/runtime-main.ad0f7559.js.map",
+    "static/js/2.9fbcd1db.chunk.js": "/fair-salary-web/static/js/2.9fbcd1db.chunk.js",
+    "static/js/2.9fbcd1db.chunk.js.map": "/fair-salary-web/static/js/2.9fbcd1db.chunk.js.map",
+    "index.html": "/fair-salary-web/index.html",
+    "precache-manifest.04a7b45ec5d7e9a585369bcff41958e7.js": "/fair-salary-web/precache-manifest.04a7b45ec5d7e9a585369bcff41958e7.js",
+    "service-worker.js": "/fair-salary-web/service-worker.js",
+    "static/js/2.9fbcd1db.chunk.js.LICENSE.txt": "/fair-salary-web/static/js/2.9fbcd1db.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad0f7559.js",
+    "static/js/2.9fbcd1db.chunk.js",
+    "static/js/main.f75f25b7.chunk.js"
+  ]
+}
