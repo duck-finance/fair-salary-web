@@ -1,13 +1,15 @@
 name: CI
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install
-      run: yarn    
-    - name: Deploy
-      run: yarn run deploy
+      - uses: actions/checkout@v2
+      - name: Install
+        run: yarn --frozen-lockfile
+      - name: Deploy
+        run: yarn run deploy
+        env:
+          NODE_DEBUG: gh-pages
