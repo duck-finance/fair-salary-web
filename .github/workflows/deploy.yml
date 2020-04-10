@@ -12,7 +12,7 @@ jobs:
       - name: Build
         run: yarn build
       - name: Deploy
-        run: yarn gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
+        run: yarn gh-pages -d build -u "luchanso <luchansodev@github.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_DEBUG: gh-pages
