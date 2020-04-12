@@ -10,6 +10,7 @@ const BackgroundContainer = styled.div`
   height: 100%;
   background: no-repeat url("${BackgroundUrl}");
   background-size: contain;
+  z-index: -9999;
 `;
 
 const BackgroundContainerShadow = styled.div`
@@ -20,7 +21,8 @@ const BackgroundContainerShadow = styled.div`
   height: 100%;
 
   background-color: black;
-  opacity: 0.9;
+  opacity: 0;
+  z-index: -9998;
 `;
 
 const CreditsContainer = styled.div`

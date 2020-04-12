@@ -3,7 +3,7 @@ import { Form, FormState } from "./components/Form/Form";
 import { Chart } from "./components/Chart/Chart";
 import { Typography } from "@material-ui/core";
 import styled from "styled-components";
-import { Background } from "./components/Background/Background";
+// import { Background } from "./components/Background/Background";
 
 const AlignContainer = styled.div`
   margin-top: 40px;
