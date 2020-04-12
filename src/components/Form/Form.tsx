@@ -1,9 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import { TextField, InputAdornment } from "@material-ui/core";
+import { KeyboardDatePicker } from "@material-ui/pickers";
 
 export type FormState = {
   salary: string;
-  date: string;
+  date?: Date | null;
 };
 
 type Props = {
@@ -14,7 +16,16 @@ type Props = {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 240px;
+  align-items: center;
+  width: 100%;
+`;
+
+const InputContainer = styled.div`
+  width: 300px;
+`;
+
+const InputAlign = styled.div`
+  margin-bottom: 20px;
 `;
 
 export function Form({ formState, onChange }: Props) {
@@ -24,27 +35,38 @@ export function Form({ formState, onChange }: Props) {
     onChange({ ...formState, salary: value });
   }
 
-  function handleChangeDate({
-    target: { value },
-  }: React.ChangeEvent<HTMLInputElement>) {
-    onChange({ ...formState, date: value });
+  function handleDateChange(date: Date | null) {
+    onChange({ ...formState, date });
   }
 
   return (
     <Container>
-      <p>Я получаю</p>
-      <input
-        placeholder="20 000 руб."
-        onChange={handleChangeSalary}
-        value={formState.salary}
-      />
-      <p>Последний раз менялась</p>
-      <input
-        type="date"
-        placeholder="Когда последний раз повышалась?"
-        value={formState.date}
-        onChange={handleChangeDate}
-      />
+      <InputContainer>
+        <InputAlign>
+          <TextField
+            label="Моя зарплата"
+            variant="filled"
+            placeholder="20000"
+            InputProps={{
+              endAdornment: <InputAdornment position="end">₽</InputAdornment>,
+            }}
+            onChange={handleChangeSalary}
+            value={formState.salary}
+            fullWidth
+          />
+        </InputAlign>
+        <KeyboardDatePicker
+          label="Последний раз менялась"
+          variant="inline"
+          inputVariant="filled"
+          placeholder="31/01/2020"
+          format="dd/MM/yyyy"
+          value={formState.date}
+          onChange={handleDateChange}
+          fullWidth
+          invalidDateMessage="Упс, неправильная дата"
+        />
+      </InputContainer>
     </Container>
   );
 }
