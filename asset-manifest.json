@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/fair-salary-web/static/js/main.575a7b7d.chunk.js",
-    "main.js.map": "/fair-salary-web/static/js/main.575a7b7d.chunk.js.map",
+    "main.js": "/fair-salary-web/static/js/main.3903a90f.chunk.js",
+    "main.js.map": "/fair-salary-web/static/js/main.3903a90f.chunk.js.map",
     "runtime-main.js": "/fair-salary-web/static/js/runtime-main.ad0f7559.js",
     "runtime-main.js.map": "/fair-salary-web/static/js/runtime-main.ad0f7559.js.map",
-    "static/js/2.e9f2ff75.chunk.js": "/fair-salary-web/static/js/2.e9f2ff75.chunk.js",
-    "static/js/2.e9f2ff75.chunk.js.map": "/fair-salary-web/static/js/2.e9f2ff75.chunk.js.map",
+    "static/js/2.37f48155.chunk.js": "/fair-salary-web/static/js/2.37f48155.chunk.js",
+    "static/js/2.37f48155.chunk.js.map": "/fair-salary-web/static/js/2.37f48155.chunk.js.map",
     "index.html": "/fair-salary-web/index.html",
-    "precache-manifest.221274da6641f70ae99a99761a84d017.js": "/fair-salary-web/precache-manifest.221274da6641f70ae99a99761a84d017.js",
+    "precache-manifest.e2eb725a625469d49cb791338215f9ec.js": "/fair-salary-web/precache-manifest.e2eb725a625469d49cb791338215f9ec.js",
     "service-worker.js": "/fair-salary-web/service-worker.js",
-    "static/js/2.e9f2ff75.chunk.js.LICENSE.txt": "/fair-salary-web/static/js/2.e9f2ff75.chunk.js.LICENSE.txt"
+    "static/js/2.37f48155.chunk.js.LICENSE.txt": "/fair-salary-web/static/js/2.37f48155.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ad0f7559.js",
-    "static/js/2.e9f2ff75.chunk.js",
-    "static/js/main.575a7b7d.chunk.js"
+    "static/js/2.37f48155.chunk.js",
+    "static/js/main.3903a90f.chunk.js"
   ]
 }
