@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fair-salary-web/precache-manifest.6f2314ba7c8a1de0477d3e15e100a637.js"
+  "/fair-salary-web/precache-manifest.e37564397015caa6bc003687fa514d3a.js"
 );
 
 self.addEventListener('message', (event) => {

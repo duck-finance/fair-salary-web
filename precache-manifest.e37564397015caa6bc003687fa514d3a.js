@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c58a9eecaf11a6b2ef85f4a54a71c60e",
+    "revision": "af469e688375a0542ef6f1ec9762633a",
     "url": "/fair-salary-web/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fair-salary-web/static/js/2.a8daddbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8555e950cd61b7db31a8",
-    "url": "/fair-salary-web/static/js/main.07b02267.chunk.js"
+    "revision": "7653bd55537da7ac7e3c",
+    "url": "/fair-salary-web/static/js/main.e766328f.chunk.js"
   },
   {
     "revision": "d72f5342eddd2174a0c8",

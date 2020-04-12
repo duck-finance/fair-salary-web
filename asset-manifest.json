@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/fair-salary-web/static/js/main.07b02267.chunk.js",
-    "main.js.map": "/fair-salary-web/static/js/main.07b02267.chunk.js.map",
+    "main.js": "/fair-salary-web/static/js/main.e766328f.chunk.js",
+    "main.js.map": "/fair-salary-web/static/js/main.e766328f.chunk.js.map",
     "runtime-main.js": "/fair-salary-web/static/js/runtime-main.ad0f7559.js",
     "runtime-main.js.map": "/fair-salary-web/static/js/runtime-main.ad0f7559.js.map",
     "static/js/2.a8daddbb.chunk.js": "/fair-salary-web/static/js/2.a8daddbb.chunk.js",
     "static/js/2.a8daddbb.chunk.js.map": "/fair-salary-web/static/js/2.a8daddbb.chunk.js.map",
     "index.html": "/fair-salary-web/index.html",
-    "precache-manifest.6f2314ba7c8a1de0477d3e15e100a637.js": "/fair-salary-web/precache-manifest.6f2314ba7c8a1de0477d3e15e100a637.js",
+    "precache-manifest.e37564397015caa6bc003687fa514d3a.js": "/fair-salary-web/precache-manifest.e37564397015caa6bc003687fa514d3a.js",
     "service-worker.js": "/fair-salary-web/service-worker.js",
     "static/js/2.a8daddbb.chunk.js.LICENSE.txt": "/fair-salary-web/static/js/2.a8daddbb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ad0f7559.js",
     "static/js/2.a8daddbb.chunk.js",
-    "static/js/main.07b02267.chunk.js"
+    "static/js/main.e766328f.chunk.js"
   ]
 }
