@@ -28,6 +28,23 @@ const InputAlign = styled.div`
   margin-bottom: 20px;
 `;
 
+function getError(salary: string): string | null {
+  if (salary === "") {
+    return null;
+  }
+  const salaryNumber = Number(salary);
+
+  if (Number.isNaN(salaryNumber)) {
+    return "Упс, кажется это не число";
+  }
+
+  if (salaryNumber < 1000) {
+    return "Упс, мы не умеем работать с суммами меньше 1000";
+  }
+
+  return null;
+}
+
 export function Form({ formState, onChange }: Props) {
   function handleChangeSalary({
     target: { value },
@@ -38,6 +55,8 @@ export function Form({ formState, onChange }: Props) {
   function handleDateChange(date: Date | null) {
     onChange({ ...formState, date });
   }
+
+  const error = getError(formState.salary);
 
   return (
     <Container>
@@ -52,6 +71,8 @@ export function Form({ formState, onChange }: Props) {
             }}
             onChange={handleChangeSalary}
             value={formState.salary}
+            error={!!error}
+            helperText={error}
             fullWidth
           />
         </InputAlign>

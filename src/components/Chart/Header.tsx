@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Typography } from "@material-ui/core";
 
 const Container = styled.div`
   display: flex;
@@ -29,10 +30,10 @@ function units(num: number, cases: any) {
 export function Header({ salary }: any) {
   return (
     <Container>
-      <h2>
+      <Typography variant="h3">
         Ваша реальная зарплата на сегодня {salary}{" "}
         {units(salary, { nom: "рубль", gen: "рубля", plu: "рублей" })}
-      </h2>
+      </Typography>
     </Container>
   );
 }

@@ -1,8 +1,6 @@
 import React, { Fragment } from "react";
 import ApexChart from "react-apexcharts";
 import { FormState } from "../Form/Form";
-import { EmptyState } from "./EmptyState";
-import { UnrealState } from "./UnrealState";
 import { Header } from "./Header";
 import { useChart } from "./useChartData";
 
@@ -18,12 +16,8 @@ export function Chart({ formState }: Props) {
     resultSalary,
   } = useChart(formState);
 
-  if (isEmptySalary) {
-    return <EmptyState />;
-  }
-
-  if (isUnrealSalary) {
-    return <UnrealState />;
+  if (isEmptySalary || isUnrealSalary) {
+    return null;
   }
 
   return (
