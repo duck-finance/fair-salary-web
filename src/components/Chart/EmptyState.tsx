@@ -12,7 +12,7 @@ const Container = styled.div`
 export function EmptyState() {
   return (
     <Container>
-      <h2>Для начала введите свою зарплату</h2>
+      <h2>Для начала укажите зарплату</h2>
     </Container>
   );
 }
